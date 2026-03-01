@@ -5,8 +5,8 @@ export default function Services() {
         <section className="services-section section">
             <div className="container">
                 <div className="services-header text-center">
-                    <h2 className="section-title">What I Offer</h2>
-                    <p className="section-subtitle">Premium email development services tailored for modern businesses.</p>
+                    <h2 className="section-title">Professional Email Development Services</h2>
+                    <p className="section-subtitle">Premium HTML email coding for modern businesses.</p>
                 </div>
 
                 <div className="services-grid">
@@ -22,18 +22,24 @@ export default function Services() {
                         <h3 className="service-title">Responsive HTML Email Templates</h3>
                         <ul className="service-features">
                             <li>
-                                <span className="check-icon">✓</span> Hand-coded HTML
+                                <span className="check-icon">✓</span> Hand-coded clean HTML
                             </li>
                             <li>
                                 <span className="check-icon">✓</span> Pixel-perfect conversion
                             </li>
                             <li>
-                                <span className="check-icon">✓</span> Tested in major email clients
+                                <span className="check-icon">✓</span> Tested in major clients
                             </li>
                             <li>
-                                <span className="check-icon">✓</span> Platform-ready for Klaviyo, HubSpot, Mailchimp
+                                <span className="check-icon">✓</span> Platform-ready
+                            </li>
+                            <li>
+                                <span className="check-icon">✓</span> Performance optimized
                             </li>
                         </ul>
+                        <a href="#prices" className="service-card-btn">
+                            Check Price →
+                        </a>
                     </div>
 
                     {/* Card 2 */}
@@ -53,12 +59,18 @@ export default function Services() {
                                 <span className="check-icon">✓</span> Outlook & Gmail compatible
                             </li>
                             <li>
-                                <span className="check-icon">✓</span> Company-wide deployment ready
+                                <span className="check-icon">✓</span> Company-wide ready
                             </li>
                             <li>
-                                <span className="check-icon">✓</span> Image hosting optimized
+                                <span className="check-icon">✓</span> Hosted images
+                            </li>
+                            <li>
+                                <span className="check-icon">✓</span> Clean structure
                             </li>
                         </ul>
+                        <a href="#prices" className="service-card-btn">
+                            Check Price →
+                        </a>
                     </div>
                 </div>
             </div>

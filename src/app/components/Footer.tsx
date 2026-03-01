@@ -6,22 +6,29 @@ export default function Footer() {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-brand">
-                        <h3>EmailDevPro</h3>
+                        <h3>MailStora</h3>
                         <p>Professional HTML email templates & signatures.</p>
                     </div>
                     <div className="footer-links">
                         <div className="footer-links-group">
                             <h4>Services</h4>
                             <ul>
-                                <li><a href="#">Custom Templates</a></li>
-                                <li><a href="#">Email Signatures</a></li>
-                                <li><a href="#">Consulting</a></li>
+                                <li><a href="#services">Custom Templates</a></li>
+                                <li><a href="#services">Email Signatures</a></li>
+                                <li><a href="#prices">Pricing</a></li>
+                            </ul>
+                        </div>
+                        <div className="footer-links-group">
+                            <h4>Legal</h4>
+                            <ul>
+                                <li><a href="#terms">Terms & Conditions</a></li>
+                                <li><a href="#privacy">Privacy Policy</a></li>
                             </ul>
                         </div>
                         <div className="footer-links-group">
                             <h4>Contact</h4>
                             <ul>
-                                <li><a href="mailto:hello@emaildevpro.com">hello@emaildevpro.com</a></li>
+                                <li><a href="mailto:hello@mailstora.com">hello@mailstora.com</a></li>
                                 <li>
                                     <div className="social-icons">
                                         <a href="#" aria-label="LinkedIn">
@@ -38,7 +45,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} EmailDevPro. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} MailStora. All rights reserved.</p>
                 </div>
             </div>
         </footer>

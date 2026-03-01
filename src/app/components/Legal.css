@@ -1,0 +1,46 @@
+.legal-section {
+    background-color: #F1F5F9;
+    /* Alternate slightly darker background for separation from white cards */
+    padding: 4rem 0;
+    border-top: 1px solid var(--card-border);
+}
+
+.legal-section#privacy {
+    border-top: none;
+    /* remove border if directly below terms */
+    padding-top: 0;
+}
+
+.legal-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.legal-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--foreground);
+    margin-bottom: 2rem;
+}
+
+.legal-content {
+    color: var(--text-muted);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.legal-content h3 {
+    color: var(--foreground);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.legal-content p {
+    margin-bottom: 1rem;
+}
+
+.legal-content strong {
+    color: var(--foreground);
+}

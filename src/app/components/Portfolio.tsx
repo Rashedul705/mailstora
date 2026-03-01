@@ -10,11 +10,11 @@ export default function Portfolio() {
     ];
 
     return (
-        <section className="portfolio-section section">
+        <section className="portfolio-section section section-alt">
             <div className="container">
                 <div className="portfolio-header text-center">
-                    <h2 className="section-title">Recent Work</h2>
-                    <p className="section-subtitle">A glimpse into templates that deliver results.</p>
+                    <h2 className="section-title">Recent Work That Delivers Results</h2>
+                    <p className="section-subtitle">Real templates built for real businesses.</p>
                 </div>
 
                 <div className="portfolio-grid">
@@ -38,7 +38,7 @@ export default function Portfolio() {
                 </div>
 
                 <div className="portfolio-action text-center">
-                    <button className="btn btn-secondary">See Full Portfolio</button>
+                    <button className="btn btn-primary">See Full Portfolio</button>
                 </div>
             </div>
         </section>

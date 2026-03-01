@@ -7,15 +7,16 @@ export default function Hero() {
             <div className="container hero-container">
                 <div className="hero-content">
                     <h1 className="hero-title">
-                        Custom HTML Email Templates & Signatures That Work Everywhere
+                        Custom HTML Email Templates That Never Break in Outlook
                     </h1>
                     <p className="hero-subtitle">
-                        Responsive, tested, and compatible with Outlook, Gmail, and major email platforms.
+                        Stop losing engagement due to broken formatting. Get responsive, perfectly rendered email templates and professional signatures built for real-world email clients.
                     </p>
                     <div className="hero-buttons">
                         <button className="btn btn-primary">Get a Free Quote</button>
                         <button className="btn btn-secondary">View Portfolio</button>
                     </div>
+                    <p className="hero-trust">Tested in Outlook, Gmail, Apple Mail, Klaviyo & HubSpot</p>
                 </div>
                 <div className="hero-image-wrapper">
                     <div className="hero-image-inner">

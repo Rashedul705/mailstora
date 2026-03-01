@@ -1,12 +1,15 @@
 :root {
-  --background: #0f172a;
-  --foreground: #f8fafc;
-  --primary: #3b82f6;
-  --primary-hover: #2563eb;
-  --secondary: #6366f1;
-  --card-bg: #1e293b;
-  --card-border: #334155;
-  --text-muted: #94a3b8;
+  --background: #F8FAFC;
+  --foreground: #0F172A;
+  --primary: #4F46E5;
+  --primary-hover: #4338CA;
+  --secondary: #475569;
+  --card-bg: #FFFFFF;
+  --card-border: #E2E8F0;
+  --text-muted: #475569;
+  --section-alt: #F1F5F9;
+  --shadow-soft: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -1px rgba(15, 23, 42, 0.04);
+  --shadow-hover: 0 10px 15px -3px rgba(15, 23, 42, 0.1), 0 4px 6px -2px rgba(15, 23, 42, 0.05);
 }
 
 * {
@@ -45,6 +48,10 @@ button {
   padding: 5rem 0;
 }
 
+.section-alt {
+  background-color: var(--section-alt);
+}
+
 /* Button Variants */
 .btn {
   display: inline-flex;
@@ -58,23 +65,25 @@ button {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
-  color: #fff;
-  box-shadow: 0 4px 14px 0 rgba(99, 102, 241, 0.39);
+  background-color: var(--primary);
+  color: #FFFFFF;
+  box-shadow: 0 4px 14px 0 rgba(79, 70, 229, 0.3);
 }
 
 .btn-primary:hover {
+  background-color: var(--primary-hover);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
 }
 
 .btn-secondary {
-  background-color: transparent;
+  background-color: var(--card-bg);
   color: var(--foreground);
   border: 1px solid var(--card-border);
+  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
 }
 
 .btn-secondary:hover {
-  background-color: var(--card-bg);
-  border-color: var(--text-muted);
+  background-color: var(--section-alt);
+  border-color: #cbd5e1;
 }

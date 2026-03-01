@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Professional HTML Email Templates & Signatures",
+  title: "MailStora - Professional HTML Email Templates & Signatures",
   description: "Custom HTML Email Templates & Signatures. Responsive, tested, and compatible with Outlook, Gmail, and major email platforms.",
 };
 

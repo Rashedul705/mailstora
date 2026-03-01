@@ -7,7 +7,7 @@ export default function CTA() {
                 <div className="cta-content">
                     <h2 className="cta-title">Let’s Build Emails That Actually Convert</h2>
                     <p className="cta-subtitle">
-                        Stop losing engagement due to broken formatting. Get high-quality, perfectly rendered emails today.
+                        Get a custom quote within 24 hours and stop worrying about broken emails.
                     </p>
                     <button className="btn btn-primary cta-button">Start Your Project Today</button>
                 </div>

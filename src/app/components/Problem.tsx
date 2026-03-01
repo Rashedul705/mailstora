@@ -5,16 +5,18 @@ export default function Problem() {
         "Email design breaks in Outlook",
         "Not fully mobile responsive",
         "Import issues in Klaviyo or HubSpot",
-        "Unprofessional email signatures"
+        "Unprofessional team email signatures"
     ];
 
     return (
-        <section className="problem-section section">
+        <section className="problem-section section section-alt">
             <div className="container">
                 <div className="problem-header">
-                    <h2 className="section-title">Your Emails Shouldn’t Break in Outlook</h2>
+                    <h2 className="section-title">Tired of Emails That Look Perfect… Until You Send Them?</h2>
                     <p className="section-subtitle">
-                        If you've ever spent hours designing an email only to have it look broken in your subscriber's inbox, you know the frustration.
+                        You spend hours designing an email. It looks perfect in your browser. Then it breaks in Outlook. The layout shifts on mobile. Your branding looks inconsistent.
+                        <br /><br />
+                        That’s not just frustrating. It costs you credibility and conversions.
                     </p>
                 </div>
 

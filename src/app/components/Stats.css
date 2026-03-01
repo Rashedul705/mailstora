@@ -1,8 +1,11 @@
 .stats-section {
-    background: linear-gradient(90deg, var(--card-bg) 0%, rgba(99, 102, 241, 0.05) 50%, var(--card-bg) 100%);
-    padding: 4rem 0;
+    padding: 5rem 0;
     border-top: 1px solid var(--card-border);
     border-bottom: 1px solid var(--card-border);
+}
+
+.stats-header {
+    margin-bottom: 3rem;
 }
 
 .stats-grid {
@@ -29,9 +32,7 @@
 .stat-value {
     font-size: 2.5rem;
     font-weight: 800;
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--primary);
     margin-bottom: 0.5rem;
 }
 
@@ -43,8 +44,9 @@
 
 .stat-label {
     color: var(--text-muted);
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 0.95rem;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    max-width: 200px;
 }
