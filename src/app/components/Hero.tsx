@@ -6,9 +6,9 @@ export default function Hero() {
         <section className="hero section">
             <div className="container hero-container">
                 <div className="hero-content">
-                    <h1 className="hero-title">
+                    <h2 className="hero-title">
                         Custom HTML Email Templates That Never Break in Outlook
-                    </h1>
+                    </h2>
                     <p className="hero-subtitle">
                         Stop losing engagement due to broken formatting. Get responsive, perfectly rendered email templates and professional signatures built for real-world email clients.
                     </p>

@@ -28,11 +28,17 @@
     background-color: var(--card-bg);
     border: 1px solid var(--card-border);
     border-radius: 1rem;
-    padding: 2.5rem 2rem;
+    padding: 1.5rem;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
     box-shadow: var(--shadow-soft);
+}
+
+@media (min-width: 768px) {
+    .service-card {
+        padding: 2.5rem 2rem;
+    }
 }
 
 .service-card::before {
@@ -104,15 +110,21 @@
 
 .service-card-btn {
     display: inline-flex;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     color: var(--primary);
     font-weight: 600;
     font-size: 0.95rem;
     align-items: center;
     transition: all 0.2s ease;
-    position: absolute;
-    bottom: 2.5rem;
-    right: 2rem;
+}
+
+@media (min-width: 768px) {
+    .service-card-btn {
+        position: absolute;
+        bottom: 2.5rem;
+        right: 2rem;
+        margin-top: 0;
+    }
 }
 
 .service-card-btn:hover {

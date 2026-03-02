@@ -76,3 +76,83 @@
     background-color: #EEF2FF;
     border-color: #C7D2FE;
 }
+
+/* Hide Sign Up in navbar on mobile */
+.nav-signup-desktop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .nav-signup-desktop {
+        display: inline-flex;
+    }
+}
+
+/* Hamburger Button */
+.nav-hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem;
+}
+
+@media (min-width: 768px) {
+    .nav-hamburger {
+        display: none;
+    }
+}
+
+.hamburger-line {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #1E1B4B;
+    border-radius: 2px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Mobile Dropdown */
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-bg);
+    border-top: 1px solid var(--card-border);
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+
+.mobile-nav-link {
+    color: #312E81;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--card-border);
+    transition: color 0.2s ease;
+}
+
+.mobile-nav-link:last-child {
+    border-bottom: none;
+}
+
+.mobile-nav-link:hover {
+    color: var(--primary);
+}
+
+/* Sign Up button inside mobile menu */
+.mobile-signup-btn {
+    margin-top: 0.5rem;
+    text-align: center;
+    border-radius: 9999px;
+    padding: 0.65rem 1.5rem;
+    font-weight: 600;
+}
